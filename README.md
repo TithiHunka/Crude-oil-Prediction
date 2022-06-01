@@ -93,9 +93,7 @@ The model evaluation will be based on the F1 Score.
 |11| 1_diffSumImports(kmt)  | Sum Import for one Month|
 |12| 1_diffSumImports(kmt)  | Sum Production one Month|
 |13| 1_diffSumImports(kmt)  | Sum Refinery Intake|
+|14| 12_diffClosing stocks(kmt) | Closing Stocks for 12 Months |
+|15| 12_diffSumImports(kmt)   |  Sum Refinery Intake|
+|16| Target  | The label for the crude oil data (whether production will grow or not)|
 
-|114| 12_diffClosing stocks(kmt) | Closing Stocks for 12 Months|
-
-|123|12_diffSumImports(kmt)  | Sum Refinery Intake|  | Sum Refinery Intake|
-
-|124| Target | The label for the crude oil data (whether production will grow or not)|
