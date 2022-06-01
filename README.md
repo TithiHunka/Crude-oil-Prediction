@@ -97,3 +97,27 @@ The model evaluation will be based on the F1 Score.
 |15| 12_diffSumImports(kmt)   |  Sum Refinery Intake|
 |16| Target  | The label for the crude oil data (whether production will grow or not)|
 
+## Steps followed
+- Installing & Importing Libraries
+- Data Acquisition
+- Data Description
+- Data Pre-Profiling
+- Data Pre-Processing
+- Exploratory Data Analysis
+- Data Post Processing
+     - Feature scaling
+     - Splitting
+     - PCA
+ 
+- Model Development & Evaluation
+
+     - Analyze which Algo Classifier predicts the BEST RESULT and also check the Computation Time
+     
+     - Hyper-parameters Tuning of the model
+     
+     - Analyzing the Test File
+     
+- Prepare the submission file which should have only two columns viz. the KEY/INDEX column(Id) and TARGET column(label)
+
+- To write the final data to the submission file which is .csv without HEADER and INDEX
+
