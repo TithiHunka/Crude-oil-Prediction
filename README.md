@@ -48,3 +48,54 @@ The company suffers from the following problems:
 
 - Evaluation Metric
 The model evaluation will be based on the F1 Score.
+
+# 3. Data  Description
+
+ - This database was created to predict the Crude Oil production’s trend based on the previous year Crude Oil data.
+ - The column Target is also present in the dataset which has two values 1 and 0 corresponding to whether production will grow or not.
+ - This is the data that we have to **predict for future samples.**
+#### The dataset is divided into two parts: Train and Test sets.
+
+#### Training Set: 
+ - The train set contains **7619 rows** and **124 columns**
+ - The last column **activity** is the **target variable**.
+
+#### Testing Set:
+ - The test set contains **2540 rows** and **123 columns**.
+ - The test set **doesn’t contain** the **Target** column. 
+ - It needs to be predicted for the test set.
+ 
+
+**Train Set:**
+
+| Records |Features|Target Variable|
+|:--|:--|:--|
+|**7619**|**124**|**Target**|
+
+**Test Set:**
+
+|Records|Features|Predicted Variable|
+|:--|:--|:--|
+|**2540**|**123**|**Taeget**|
+ 
+ |***ID***|****Feature****|****Description****|
+|:--|:--|:--|
+|01| Id   | Unique Id |
+|02| month  | Selected Months|
+|03| Country  | Countries(76 in Total)|
+|04| 1_diffClosing stocks(kmt) | Closing Stocks for one Month|
+|05| 1_diffExports(kmt) | Exports for one Month|
+|06| 1_diffImports(kmt) | Imports for one Month|
+|07| 1_diffRefinery intake  | Refinery Intake for one Month|
+|08| 1_diffWTI  | West texas Intermediate Price for one Month|
+|09| 1_diffSumClosing stocks(kmt)  | Sum Closing Stocks for one Month|
+|10| 1_diffSumExports(kmt)  | Sum Exports for one Month|
+|11| 1_diffSumImports(kmt)  | Sum Import for one Month|
+|12| 1_diffSumImports(kmt)  | Sum Production one Month|
+|13| 1_diffSumImports(kmt)  | Sum Refinery Intake|
+
+|114| 12_diffClosing stocks(kmt) | Closing Stocks for 12 Months|
+
+|123|12_diffSumImports(kmt)  | Sum Refinery Intake|  | Sum Refinery Intake|
+
+|124| Target | The label for the crude oil data (whether production will grow or not)|
