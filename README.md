@@ -100,7 +100,7 @@ The model evaluation will be based on the F1 Score.
 ## Steps followed
 - Installing & Importing Libraries
 - Data Acquisition
-- Data Description
+- Data information and Description
 - Data Pre-Profiling
 - Data Pre-Processing
 - Exploratory Data Analysis
